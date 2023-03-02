@@ -39,7 +39,6 @@ class HomeFragment : BaseFragment<HomeFragmentBinding>(HomeFragmentBinding::infl
         val dialog = BottomSheetDialog(requireContext(), R.style.AppBottomSheetDialogTheme)
         setBottomSheetDialog(dialog)
 
-
         with(binding) {
             filterIcon.setOnClickListener {
                 dialog.show()
@@ -131,7 +130,7 @@ class HomeFragment : BaseFragment<HomeFragmentBinding>(HomeFragmentBinding::infl
             init {
                 hotSalesViewpager.adapter = getHotSalesAdapter()
                 hotSalesViewpager.setPageTransformer(getPageTransformer(0.88f))
-                //viewpager.setInfiniteAnimation(viewLifecycleOwner)
+
             }
 
             bind { scope, _, _ ->

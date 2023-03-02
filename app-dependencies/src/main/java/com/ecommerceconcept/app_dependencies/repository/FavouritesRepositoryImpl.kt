@@ -11,7 +11,8 @@ class FavouritesRepositoryImpl : FavouritesRepository {
     override fun favouritesFlow() = favouritesStorageMutableStateFlow.asStateFlow()
 
     override fun toggleFavourite(productId: Int) =
-        if (favouritesFlow().value.contains(productId)) updateStorage { it.remove(productId) } else updateStorage { it.add(productId) }
+        if (favouritesStorageMutableStateFlow.value.contains(productId))
+            updateStorage { it.remove(productId) } else updateStorage { it.add(productId) }
 
     private fun updateStorage(action: (MutableList<Int>) -> Unit) {
         favouritesStorageMutableStateFlow.update { list ->

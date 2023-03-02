@@ -15,6 +15,7 @@ dependencies {
     implementation(buildsrc.Dependencies.simple_rating_bar)
     implementation(buildsrc.Dependencies.navigation_fragment)
     implementation(buildsrc.Dependencies.navigation_ui)
+
 }
 
 dependencies {

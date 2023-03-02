@@ -11,7 +11,7 @@ import com.ecommerceconcept.filters.Price
 import com.ecommerceconcept.filters.Size
 import com.ecommerceconcept.home.model.GeoApi
 import com.ecommerceconcept.home.model.HomeRepository
-import com.ecommerceconcept.my_cart.model.CartRepository
+import com.ecommerceconcept.cart.model.CartRepository
 import com.ecommerceconcept.products.BestSellerProduct
 import com.ecommerceconcept.products.Products
 import dev.icerock.moko.errors.handler.ExceptionHandler

@@ -3,7 +3,7 @@ package com.ecommerceconcept.product_detail.presentation
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ecommerceconcept.favourites.model.FavouritesRepository
-import com.ecommerceconcept.my_cart.model.CartRepository
+import com.ecommerceconcept.cart.model.CartRepository
 import com.ecommerceconcept.product.ProductDetail
 import com.ecommerceconcept.product_detail.model.ProductDetailRepository
 import dev.icerock.moko.errors.handler.ExceptionHandler

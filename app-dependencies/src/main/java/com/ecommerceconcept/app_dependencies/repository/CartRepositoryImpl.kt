@@ -6,7 +6,7 @@ import com.ecommerceconcept.app_dependencies.remote.entity.cart.CartProductDTO
 import com.ecommerceconcept.app_dependencies.exceptions_handler.NetworkExceptionMapper
 import com.ecommerceconcept.entitiy.cart.Cart
 import com.ecommerceconcept.entitiy.cart.CartProduct
-import com.ecommerceconcept.my_cart.model.CartRepository
+import com.ecommerceconcept.cart.model.CartRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update

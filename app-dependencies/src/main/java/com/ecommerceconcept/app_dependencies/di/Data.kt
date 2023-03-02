@@ -5,7 +5,7 @@ import com.ecommerceconcept.app_dependencies.exceptions_handler.NetworkException
 import com.ecommerceconcept.favourites.model.FavouritesRepository
 import com.ecommerceconcept.home.model.GeoApi
 import com.ecommerceconcept.home.model.HomeRepository
-import com.ecommerceconcept.my_cart.model.CartRepository
+import com.ecommerceconcept.cart.model.CartRepository
 import com.ecommerceconcept.product_detail.model.ProductDetailRepository
 import dev.icerock.moko.errors.handler.ExceptionHandler
 import dev.icerock.moko.errors.mappers.ExceptionMappersStorage

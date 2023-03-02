@@ -2,7 +2,7 @@ package com.ecommerceconcept.cart.presentation
 
 import androidx.lifecycle.ViewModel
 import com.ecommerceconcept.entitiy.cart.CartProduct
-import com.ecommerceconcept.my_cart.model.CartRepository
+import com.ecommerceconcept.cart.model.CartRepository
 import kotlinx.coroutines.flow.filterNotNull
 
 
